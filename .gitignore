@@ -1,0 +1,12 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/BackOffice.API/BackOffice.Service/obj
+/BackOffice.API/BackOffice.Infra/obj
+/BackOffice.API/BackOffice.Common/obj
+/BackOffice.API/BackOffice.Application/obj
+/BackOffice.API/BackOffice.api/obj
+/BackOffice.API/.vs
+/.vs
+/BackOffice.API/BackOffice.Test/obj
