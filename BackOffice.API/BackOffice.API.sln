@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.API", "backOffice.api\BackOffice.API.csproj", "{1A81F252-C6F3-47C0-AC89-0C5744759C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.API", "backOffice.api\BackOffice.API.csproj", "{1A81F252-C6F3-47C0-AC89-0C5744759C25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6849DD68-84E4-461B-A60A-4D6DBF59C5E7}"
 EndProject
@@ -17,15 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{71768C3E-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{5CC7AADF-B643-46F4-84E1-4C5725CCE004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Application", "backOffice.Application\BackOffice.Application.csproj", "{44F6EA84-8EEE-4D47-8C83-C307E6532D84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.Application", "backOffice.Application\BackOffice.Application.csproj", "{44F6EA84-8EEE-4D47-8C83-C307E6532D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Common", "backOffice.Common\BackOffice.Common.csproj", "{CC323DA1-875C-4BCC-8076-86481AF560FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.Common", "backOffice.Common\BackOffice.Common.csproj", "{CC323DA1-875C-4BCC-8076-86481AF560FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Infra", "backOffice.Infra\BackOffice.Infra.csproj", "{2A808754-734F-4985-91E3-A7353A2E0A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.Infra", "backOffice.Infra\BackOffice.Infra.csproj", "{2A808754-734F-4985-91E3-A7353A2E0A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Service", "backOffice.Service\BackOffice.Service.csproj", "{BD58E812-15B9-4DAD-9979-3F7DE89D2ED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.Service", "backOffice.Service\BackOffice.Service.csproj", "{BD58E812-15B9-4DAD-9979-3F7DE89D2ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Test", "backOffice.Test\BackOffice.Test.csproj", "{AB8D25DA-874D-4D75-B6D7-7949111BF5C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.Test", "backOffice.Test\BackOffice.Test.csproj", "{AB8D25DA-874D-4D75-B6D7-7949111BF5C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F36494AC-A8F8-4551-936B-1020B1BDF025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Doamin", "BackOffice.Doamin\BackOffice.Doamin.csproj", "{9CCB859B-D525-404C-B3C4-D2ADA78BE764}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,10 @@ Global
 		{AB8D25DA-874D-4D75-B6D7-7949111BF5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8D25DA-874D-4D75-B6D7-7949111BF5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8D25DA-874D-4D75-B6D7-7949111BF5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCB859B-D525-404C-B3C4-D2ADA78BE764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCB859B-D525-404C-B3C4-D2ADA78BE764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCB859B-D525-404C-B3C4-D2ADA78BE764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCB859B-D525-404C-B3C4-D2ADA78BE764}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{2A808754-734F-4985-91E3-A7353A2E0A36} = {BE70DEA9-11F5-4FB5-8913-2630B945545E}
 		{BD58E812-15B9-4DAD-9979-3F7DE89D2ED6} = {E769934B-D982-40DC-9EDA-1ACD87CD6208}
 		{AB8D25DA-874D-4D75-B6D7-7949111BF5C1} = {71768C3E-7FDA-4A4E-A800-4B8F8DB8C29B}
+		{9CCB859B-D525-404C-B3C4-D2ADA78BE764} = {F36494AC-A8F8-4551-936B-1020B1BDF025}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA121A01-4291-4CCB-A062-EC9B6179779A}
