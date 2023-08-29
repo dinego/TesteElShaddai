@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.Test", "backOffi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F36494AC-A8F8-4551-936B-1020B1BDF025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice.Doamin", "BackOffice.Doamin\BackOffice.Doamin.csproj", "{9CCB859B-D525-404C-B3C4-D2ADA78BE764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackOffice.Domain", "BackOffice.Doamin\BackOffice.Domain.csproj", "{9CCB859B-D525-404C-B3C4-D2ADA78BE764}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
