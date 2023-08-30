@@ -11,3 +11,7 @@
 /.vs
 /BackOffice.API/BackOffice.Test/obj
 /BackOffice.API/BackOffice.Doamin/obj
+/BackOffice.API/BackOffice.api/bin/Debug/net6.0
+/BackOffice.API/BackOffice.Application/bin/Debug/net6.0
+/BackOffice.API/BackOffice.Doamin/bin/Debug/net6.0
+/BackOffice.API/BackOffice.Infra/bin/Debug/net6.0

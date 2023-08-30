@@ -14,4 +14,8 @@
     <ProjectReference Include="..\BackOffice.Doamin\BackOffice.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+
 </Project>

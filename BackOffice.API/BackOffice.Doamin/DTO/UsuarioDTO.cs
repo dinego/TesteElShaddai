@@ -1,10 +1,7 @@
 ﻿using BackOffice.Doamin.Enum;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace BackOffice.Doamin.Entities
+namespace BackOffice.Domain.DTO
 {
-    [Table("Usuario")]
-    public class Usuario
+    public class UsuarioDTO
     {
         public Guid Id { get; set; }
         public string Login { get; set; }
@@ -12,7 +9,5 @@ namespace BackOffice.Doamin.Entities
         public EPerfil Perfil { get; set; }
         public string SenhaHash { get; set; }
         public bool Ativo { get; set; }
-        public DateTime DataCadastro { get; set; }
-        public DateTime DataAtualizacao { get; set; }
     }
 }
